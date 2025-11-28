@@ -10,7 +10,7 @@ export async function homeLoader(): Promise<HomeLoaderResult> {
     const featuredPackages = await getFeaturedPackages();
 
     return {
-        featuredPackages;
+        featuredPackages,
     }
 
 }
